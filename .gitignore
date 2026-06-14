@@ -1,0 +1,24 @@
+# ── Model artefacts (generated after running notebook on Colab) ───────────────
+# These are pushed to the HF Space but NOT to the GitHub source repo.
+# Use Git LFS or the HF CLI to manage them for the Space.
+*.joblib
+*.keras
+*.h5
+*.pb
+
+# ── Generated JSON configs ────────────────────────────────────────────────────
+model_metadata.json
+anomaly_config.json
+
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── Gradio temp ───────────────────────────────────────────────────────────────
+.gradio/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
