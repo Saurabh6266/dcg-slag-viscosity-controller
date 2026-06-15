@@ -4,9 +4,9 @@ emoji: 🏭
 colorFrom: red
 colorTo: indigo
 sdk: gradio
-sdk_version: "4.0.0"
 app_file: app.py
 pinned: true
+short_description: "Real-time ML Viscosity & RPM Control for BF Slag DCG"
 ---
 
 # 🏭 Real-Time Slag Viscosity Prediction for Dry Centrifugal Granulation (DCG)
@@ -17,6 +17,13 @@ pinned: true
 > and recommends disc RPM adjustments for Dry Centrifugal Granulation heat recovery.
 > Built with 4 ML models, Bayesian hyperparameter tuning, SHAP explainability,
 > PCA anomaly detection, and a Qwen2.5-7B LLM expert report panel.
+
+---
+
+## Hackathon Submission Links
+- **Video Demo**: [https://youtu.be/s66GEb0iviw](https://youtu.be/s66GEb0iviw)
+- **LinkedIn Post**: [https://www.linkedin.com/posts/saurabh-gupta0962_dcg-slag-viscosity-controller-a-hugging-share-7472381303036805120-M-gt](https://www.linkedin.com/posts/saurabh-gupta0962_dcg-slag-viscosity-controller-a-hugging-share-7472381303036805120-M-gt)
+- **Hugging Face Space**: [https://huggingface.co/spaces/saurabh0962/dcg-slag-viscosity-controller](https://huggingface.co/spaces/saurabh0962/dcg-slag-viscosity-controller)
 
 ---
 
@@ -132,7 +139,8 @@ prediction is still made but marked as an extrapolation.
 ├── app.py                        ← Gradio demo (loads saved models, runs UI)
 ├── requirements.txt              ← Python dependencies for the HF Space
 ├── README.md                     ← This file
-├── dcg_slag_viscosity_ml_final.py ← Training script (run on Colab)
+├── dcg_slag_viscosity_ml.py      ← Training script (run on Colab)
+├── dcg_slag_viscosity_ml.ipynb   ← Jupyter Notebook version for easy reading
 │
 └── [Generated after running Colab — uploaded to HF Space separately]
     ├── model_rf_reg.joblib
@@ -184,5 +192,5 @@ prediction is still made but marked as an extrapolation.
 
 ---
 
-*Mineral & Metallurgical Engineering · IIT (ISM) Dhanbad*      
+*Mineral & Metallurgical Engineering · IIT (ISM) Dhanbad*         
 *Presented as Innovation 1 in a proposed DCG heat-recovery control system*
