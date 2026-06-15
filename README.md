@@ -1,7 +1,7 @@
 ---
 title: DCG Slag Viscosity Controller
 emoji: 🏭
-colorFrom: orange
+colorFrom: red
 colorTo: indigo
 sdk: gradio
 sdk_version: "4.0.0"
@@ -184,5 +184,5 @@ prediction is still made but marked as an extrapolation.
 
 ---
 
-*Mineral & Metallurgical Engineering · IIT (ISM) Dhanbad*
+*Mineral & Metallurgical Engineering · IIT (ISM) Dhanbad*      
 *Presented as Innovation 1 in a proposed DCG heat-recovery control system*
